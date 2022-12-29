@@ -12,6 +12,7 @@ import os
 import sys
 import threading
 import tensorflow.compat.v1 as tf
+tf.disable_eager_execution()
 from tensorflow.python.client import device_lib
 from utility.helper import *
 from utility.batch_test import *
